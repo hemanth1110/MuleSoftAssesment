@@ -43,7 +43,7 @@ public class MuleSoftAssesment {
             System.out.println(result1.getString(1)+"  "+result1.getString(2)+"  "+result1.getInt(3)+"  "+result1.getString(4)+"  ");
             System.out.println();
         }
-        PreparedStatement pstmt2 = con.prepareStatement("SELECT * FROM MOVIES WHERE lead_actor =\"HEMANTH\"");
+        PreparedStatement pstmt2 = con.prepareStatement("SELECT * FROM MOVIES WHERE lead_actor =\"PRABHAS\"");
         ResultSet result2 = pstmt2.executeQuery();
         System.out.println("Display Rows Of Table Based On a Condition (actor_name) : ");
         System.out.println("---------------------------");
